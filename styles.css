@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family:'San Francisco';	
+	text-align: center;
+	background: #EAEAEA;	  	
+}
+
+img {
+	height: 600px;
+	width: 900px;
+	margin: 50px;
+}
+
+#navbar {
+	display: grid;
+	grid-template-columns: 1fr;
+	background: #4A4A4A;
+	color: #FAFAFA;
+	opacity: .95;
+	height: 2.7em;
+	width: 100%;	
+	text-align: center;
+	align-items: center;
+	position: fixed;
+}
+
+#navbar ul {
+	list-style: none; /* Removes bullet points*/
+	margin: 0;
+	padding: 0;
+
+}
+
+#navbar ul li {
+	display: inline; /* Lines navbar up horizontally */
+	padding-left: 3em;
+	padding-right: 3em;	
+	
+}
+
+#navbar ul li:hover {
+	color: #AFAFAF;
+	cursor: pointer;
+}
+
+#headline_offer {
+	padding-top: 5em;	
+	background: black;
+	width: 100vw;
+}
+
+.headline {
+	margin-top: 40px;
+	color: white;
+	font-size: 40px;
+	font-weight: 900;
+	
+}
+
+.subheadline {
+	color: white;
+	font-size: 25px;
+	font-weight: 500;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	max-width: 50%;
+	text-align: center;
+	align-items:center;
+}
+
+#product {
+	padding-top: 5em;	
+	background: black;
+	width: 100vw;
+	border-top: 10px solid #4A4A4A;
+}
+
+.heading {
+	margin-top: 10px;
+	color: white;
+	font-size: 55px;
+	font-weight: 900;
+	margin-bottom: 0;
+}
+
+.subheading {
+	color: white;
+	font-size: 30px;
+	font-weight: 500;
+	margin-top: 0;
+}
+
+#product2 {
+	padding-top: 5em;	
+	background: white;
+	width: 100vw;
+}
+
+.heading2 {
+	margin-top: 10px;
+	color: black;
+	font-size: 55px;
+	font-weight: 900;
+	margin-bottom: 0;
+}
+
+.subheading2 {
+	color: black;
+	font-size: 30px;
+	font-weight: 500;
+	margin-top: 0;
+}
+
+#footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	margin: 50px;
+	padding: 0;	
+	text-align: left;	
+}
+
+#footer ul {
+	list-style: none;
+	font-weight: 900;
+	font-size: .8rem;
+}
+
+#footer ul li {
+	font-weight: 100;
+	line-height: 1.5rem;	
+}
+
+#footer ul li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
